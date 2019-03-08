@@ -13,6 +13,7 @@ matplotlib.rcParams['ytick.major.size'] = 0
 matplotlib.rcParams['xtick.labelsize'] = 0
 matplotlib.rcParams['ytick.labelsize'] = 0
 #chnageeeeee2222333333
+l =list()
 def channel_adjust(channel, values):
     orig_size = channel.shape
     flat_channel = channel.flatten()
