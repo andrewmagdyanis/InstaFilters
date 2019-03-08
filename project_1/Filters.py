@@ -24,6 +24,7 @@ Date:         8/3/2018
 filter=['Gotham', 'Kelvin', 'Lily', 'Sutro', 'Negative',
         'Walden', 'Lomo-fi', 'Nashville', 'X-ProII',
         'Inkwell', 'Moon', 'Blue', 'Green', 'Red']
+fil=[0:13]
 ############################################################################################################
 # brightness_and_contrast function:
 def apply_brightness_contrast(input_img, brightness = 0, contrast = 0):
