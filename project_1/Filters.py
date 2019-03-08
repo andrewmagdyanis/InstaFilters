@@ -17,7 +17,7 @@ matplotlib.rcParams['ytick.labelsize'] = 0
 '''
 Author:       Andrew_Magdy_Anis   &   Amr_Mohamed_Refaat
 Assignment:   1
-Date:         1/3/2018
+Date:         8/3/2018
 '''
 ############################################################################################################
 # create list of all filters we make:
@@ -51,7 +51,7 @@ def apply_brightness_contrast(input_img, brightness = 0, contrast = 0):
 ############################################################################################################
 # sharpen and blurred function:
 '''
-to be used as sharpen function we pass a and b as +ve values 
+to be used as sharpen function we pass a and b as +ve values
 and to be used as bluring function we pass a=0 and b =-ve value'''
 def sharpen(image, a, b, sigma=10):
     blurred = filters.gaussian(image, sigma=sigma, multichannel=True)
